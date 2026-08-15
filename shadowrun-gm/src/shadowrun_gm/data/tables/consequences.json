@@ -1,0 +1,41 @@
+{
+  "_comment": "Consequence seeds. Every resolved thread spawns from here, which is the mechanism that makes the campaign never-ending.",
+  "success": [
+    {"kind": "rivalry", "title": "The Crew Someone Else Hired", "summary": "The team that lost this contract wants to know who took it, and they are better funded now.", "tension": 1.2},
+    {"kind": "debt", "title": "A Favour Called Due", "summary": "Someone helped without being asked. That was not generosity, it was an invoice.", "tension": 0.9},
+    {"kind": "mystery", "title": "What Was Actually In The Package", "summary": "The crew delivered it. Nobody explained it. Someone is dying over it now.", "tension": 1.1},
+    {"kind": "job", "title": "Repeat Business", "summary": "The client was satisfied. The next job is bigger and the deniability is thinner.", "tension": 1.0},
+    {"kind": "personal", "title": "Recognised", "summary": "A runner was made on this job by someone from their old life.", "tension": 1.3},
+    {"kind": "heat", "title": "An Analyst Notices A Pattern", "summary": "Three jobs, one methodology. Somebody in a corporate basement has started a file.", "tension": 0.8}
+  ],
+  "failure": [
+    {"kind": "heat", "title": "Burned On The Street", "summary": "Word gets around. Rates drop, fixers hesitate, and someone is taking credit for the crew's failure.", "tension": 1.4},
+    {"kind": "rivalry", "title": "The Client Wants Restitution", "summary": "Money was taken and nothing was delivered. That balance gets settled one way or another.", "tension": 1.5},
+    {"kind": "job", "title": "The Cleanup Contract", "summary": "Someone will pay the crew to fix what the crew broke. The irony is not lost on anyone.", "tension": 1.1},
+    {"kind": "mystery", "title": "Left Behind", "summary": "Something of the crew's stayed at the site. It has been found.", "tension": 1.3},
+    {"kind": "personal", "title": "The One Who Didn't Make It Out", "summary": "A contact, an ally, or a bystander paid for the crew's failure. Their people know.", "tension": 1.2}
+  ],
+  "mixed": [
+    {"kind": "job", "title": "Half A Job Is Still A Job", "summary": "The client pays partial and expects the rest. The rest just got harder.", "tension": 1.1},
+    {"kind": "mystery", "title": "The Detail Nobody Explains", "summary": "Something at the site did not fit, and the client goes quiet whenever it comes up.", "tension": 1.0},
+    {"kind": "debt", "title": "A Bridge Half Burned", "summary": "One faction is grateful and another is not, and they share a border.", "tension": 1.1},
+    {"kind": "personal", "title": "The Cost Of Doing Business", "summary": "Something the crew cared about was spent to get out. It does not come back.", "tension": 0.9}
+  ],
+  "faction_retaliation": [
+    {"title": "Audit", "summary": "{faction} has assigned an investigator. Not muscle -- an investigator. That is worse.", "tension": 1.3, "clock": 6},
+    {"title": "The Bounty", "summary": "{faction} has quietly funded a bounty. Every desperate street operator in the sprawl now has a reason to look twice.", "tension": 1.5, "clock": 4},
+    {"title": "Pressure On The Edges", "summary": "{faction} cannot find the crew, so they are leaning on the crew's contacts instead.", "tension": 1.4, "clock": 6},
+    {"title": "Corporate Response Team", "summary": "{faction} has stopped being subtle. A team has been authorised and given the crew's faces.", "tension": 1.8, "clock": 4},
+    {"title": "Legal Instrument", "summary": "{faction} has filed something with extraterritorial teeth. The crew is now a jurisdiction problem.", "tension": 1.1, "clock": 8}
+  ],
+  "downtime": [
+    "a contact calls with something they should not know",
+    "a package arrives at the safehouse with no sender",
+    "one of the crew's fake SINs gets flagged in a routine sweep",
+    "an old job resurfaces in the news, reported entirely wrong",
+    "a neighbour asks a question that is far too specific",
+    "the fixer wants a meeting and will not say why",
+    "money that should have cleared has not cleared",
+    "somebody has been asking about the crew at their usual bar"
+  ]
+}

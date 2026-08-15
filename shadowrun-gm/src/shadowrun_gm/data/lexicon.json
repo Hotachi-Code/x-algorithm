@@ -1,0 +1,129 @@
+{
+  "_comment": "Setting vocabulary. Names and categories only -- no rules text or prose from any published book. LINKING RULE: an entry is auto-wikilinked during ingest only if it contains a capitalised word. Lowercase entries ('fixer', 'street samurai') stay available to the generators and to search, but do not become notes. Capitalise an entry to promote it. An entry may be a plain string, or {\"name\": ..., \"aliases\": [...]} -- every alias links to the one canonical note.",
+  "megacorp": [
+    {"name": "Ares Macrotechnology", "aliases": ["Ares"]},
+    {"name": "Aztechnology", "aliases": ["Azzie", "Azzies"]},
+    {"name": "Evo Corporation", "aliases": ["Evo", "Yamatetsu"]},
+    {"name": "Horizon Group", "aliases": ["Horizon"]},
+    {"name": "Mitsuhama Computer Technologies", "aliases": ["Mitsuhama", "MCT"]},
+    {"name": "Renraku Computer Systems", "aliases": ["Renraku"]},
+    {"name": "Saeder-Krupp", "aliases": ["Saeder Krupp", "S-K"]},
+    {"name": "Shiawase Corporation", "aliases": ["Shiawase"]},
+    {"name": "Wuxing Incorporated", "aliases": ["Wuxing"]},
+    {"name": "Spinrad Industries", "aliases": ["Spinrad"]},
+    {"name": "Fuchi Industrial Electronics", "aliases": ["Fuchi"]},
+    {"name": "Telestrian Industries", "aliases": ["Telestrian"]},
+    {"name": "Monobe International", "aliases": ["Monobe"]},
+    {"name": "Regulus Joint Industries", "aliases": ["Regulus"]},
+    {"name": "Lone Star Security Services", "aliases": ["Lone Star"]},
+    {"name": "Zurich-Orbital Gemeinschaft Bank", "aliases": ["Zurich-Orbital", "ZOG"]},
+    "NeoNET", "Cross Applied Technologies", "Universal Omnitech",
+    "Knight Errant", "DocWagon", "Federated-Boeing", "Proteus AG",
+    "Shibata", "MCT Nanotechnology"
+  ],
+  "place": [
+    "Seattle Metroplex", "Downtown Seattle", "Redmond Barrens", "Puyallup Barrens",
+    "Auburn", "Bellevue", "Everett", "Tacoma", "Renton", "Snohomish",
+    "Council Island", "Fort Lewis", "Touristville", "Loveland", "Glow City",
+    "Hell's Kitchen", "The Ork Underground", "Tarislar", "Crime Mall",
+    "Denver", "The Front Range Free Zone", "Chicago", "The Chicago Containment Zone",
+    "Hong Kong", "Neo-Tokyo", "Berlin", "London", "New York", "Los Angeles",
+    "Aztlan", "Amazonia", "Tir Tairngire", "Tir na nOg", "Salish-Shidhe Council",
+    "Pueblo Corporate Council", "Sioux Nation", "Algonkian-Manitou Council",
+    "Athabaskan Council", "Trans-Polar Aleut Nation", "The Native American Nations",
+    "Confederation of American States", "United Canadian and American States",
+    "California Free State", "Free City of Hamburg", "Lagos", "Cape Town",
+    "Bogota", "Caracas", "Marrakesh", "Istanbul", "Vladivostok"
+  ],
+  "faction": [
+    "Yakuza", "Mafia", "Vory v Zakone", "Triads", "Seoulpa Rings",
+    "The Ancients", "The Halloweeners", "The Cutters", "The Spikes",
+    "The First Nations", "Crimson Crush", "The Rusted Stilettos",
+    "The Eighty-Eights", "The Red Hot Nukes", "Ghost Cartels",
+    "Humanis Policlub", "Sons of Sauron", "Alamos 20000", "Mothers of Metahumans",
+    "Draco Foundation", "The Atlantean Foundation", "Ordo Maximus",
+    "Black Lodge", "The Illuminates of the New Dawn", "Winternight",
+    "Shadowland", "JackPoint", "The Corporate Court", "Aleph Society",
+    "Tamanous", "The Komun'go Ring", "The Laesa"
+  ],
+  "metatype": [
+    "human", "elf", "dwarf", "ork", "troll",
+    "changeling", "SURGE", "metasapient", "metahuman",
+    "nartaki", "oni", "hobgoblin", "menehune", "koborokuru", "fomori", "giant",
+    "ghoul", "vampire", "banshee", "dzoo-noo-qua", "wendigo", "shapeshifter"
+  ],
+  "archetype": [
+    "street samurai", "decker", "technomancer", "rigger", "face", "mage",
+    "shaman", "adept", "mystic adept", "physical adept", "combat mage",
+    "covert ops specialist", "weapons specialist", "gunslinger adept",
+    "drone rigger", "infiltrator", "bounty hunter", "detective", "smuggler",
+    "street shaman", "aspected magician", "sprite summoner", "medic"
+  ],
+  "role": [
+    "fixer", "johnson", "Mr. Johnson", "shadowrunner", "runner", "wageslave",
+    "SINless", "corp exec", "talismonger", "street doc", "arms dealer",
+    "information broker", "chipdealer", "bunraku", "organlegger", "mule",
+    "netcat", "spider", "security spider", "HTR team", "corp sec", "gang boss"
+  ],
+  "magic": [
+    "Awakening", "mana", "astral space", "astral projection", "astral perception",
+    "background count", "mana warp", "manaline", "power site", "alchera",
+    "hermetic tradition", "shamanic tradition", "chaos magic", "voudoun",
+    "Wuxing tradition", "Aztec tradition", "Black Magic", "Buddhism",
+    "spirit of man", "watcher spirit", "ally spirit", "great form spirit",
+    "toxic spirit", "insect spirit", "blood magic", "geas", "focus", "power focus",
+    "sustaining focus", "spell lodge", "initiation", "metamagic", "quickening",
+    "centering", "masking", "shielding", "drain", "Force", "totem", "mentor spirit",
+    "Essence", "Magic attribute", "adept power", "conjuring", "sorcery", "enchanting"
+  ],
+  "matrix": [
+    "the Matrix", "wireless Matrix", "host", "grid", "public grid", "local grid",
+    "commlink", "cyberdeck", "cyberjack", "persona", "icon", "sculpting",
+    "Overwatch Score", "convergence", "GOD", "demiGOD", "IC", "intrusion countermeasures",
+    "black IC", "patrol IC", "resonance", "sprite", "complex form", "submersion",
+    "deep run", "foundation", "data trail", "datajack", "AR", "augmented reality",
+    "VR", "virtual reality", "hot-sim", "cold-sim", "simsense", "BTL", "dumpshock",
+    "biofeedback", "mark", "brute force", "hack on the fly", "matrix perception",
+    "Wireless Negation", "agent", "pilot program", "autosoft", "RCC", "jumped in"
+  ],
+  "gear": [
+    "Ares Predator", "Colt America L36", "Ruger Super Warhawk", "Ingram Smartgun",
+    "AK-97", "FN HAR", "Remington Roomsweeper", "Defiance EX Shocker",
+    "monofilament whip", "katana", "combat axe", "shock glove", "stun baton",
+    "armor jacket", "lined coat", "full body armor", "helmet", "chameleon suit",
+    "wired reflexes", "muscle replacement", "bone lacing", "dermal plating",
+    "cybereyes", "cyberears", "cyberarm", "smartlink", "reaction enhancers",
+    "synaptic booster", "move-by-wire", "datasoft", "skillwire", "skillsoft",
+    "trauma patch", "stim patch", "slap patch", "medkit", "biomonitor",
+    "fake SIN", "certified credstick", "nuyen", "R5 fake SIN", "maglock passkey",
+    "sequencer", "autopicker", "monofilament chainsaw", "grapple gun",
+    "Roto-Drone", "Steel Lynx", "Fly-Spy", "Kanmushi", "Horizon Flying Eye",
+    "Dodge Scoot", "Harley Scorpion", "Yamaha Rapier", "Ford Americar",
+    "GMC Bulldog", "Chrysler-Nissan Jackrabbit", "Ares Roadmaster", "Banshee",
+    "detonation cap", "commercial explosive", "grenade", "flash-bang", "gas grenade",
+    "narcoject", "gamma-scopolamine", "novacoke", "kamikaze", "jazz", "cram",
+    "long haul", "psyche", "deepweed", "tempo", "bliss", "zen"
+  ],
+  "critter": [
+    "devil rat", "barghest", "hellhound", "hell hound", "juggernaut",
+    "thunderbird", "sasquatch", "naga", "basilisk", "cockatrice", "wendigo",
+    "leshy", "gabriel hound", "harvester", "shedim", "master shedim",
+    "bug spirit", "ant spirit", "wasp spirit", "mantis spirit", "fly spirit",
+    "great dragon", "western dragon", "eastern dragon", "feathered serpent",
+    "Dunkelzahn", "Lofwyr", "Hestaby", "Celedyr", "Ghostwalker", "Sirrurg",
+    "Alamais", "Rhonabwy", "Nebelherr", "Aden", "Ryumyo", "Masaru", "Arleesh"
+  ],
+  "concept": [
+    "run", "milk run", "legwork", "the meet", "the job", "the payout",
+    "Public Awareness", "Notoriety", "Street Cred", "Karma", "Edge",
+    "SIN", "System Identification Number", "national SIN", "criminal SIN",
+    "extraterritoriality", "the Corporate Court", "Business Recognition Accords",
+    "Shadowrun Missions", "shadow community", "the Sixth World", "VITAS",
+    "the Night of Rage", "the Great Ghost Dance", "the Crash of 2064",
+    "the Crash of 2029", "Halley's Comet", "SURGE", "Goblinization",
+    "Deus", "the Arcology Shutdown", "the Matrix Crash", "Emergence",
+    "the Chicago bug city", "Year of the Comet", "the Second Matrix Crash",
+    "wage slave", "corp scrip", "soykaf", "nutrisoy", "trid", "trideo",
+    "chipped", "geeked", "drek", "frag", "chummer", "omae", "biz", "the biz"
+  ]
+}
