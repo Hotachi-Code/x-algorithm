@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime state produced by a live campaign
+.srgm/
+.demo/
+
+# Your material and your models never belong in version control
+corpus/*
+!corpus/README.md
+voices/piper/
+voices/rvc/
+voices/samples/
+voices/cast.json

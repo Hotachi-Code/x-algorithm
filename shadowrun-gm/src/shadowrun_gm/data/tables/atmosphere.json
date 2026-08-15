@@ -1,0 +1,61 @@
+{
+  "weather": [
+    "acid drizzle beading on every surface",
+    "a hard rain that turns the streetlights into smeared bars of colour",
+    "fog thick enough to swallow the block across the street",
+    "unseasonal heat, the asphalt breathing it back up after dark",
+    "sleet, sideways, finding every gap in a lined coat",
+    "a dry electric wind off the Sound that makes the drones drift",
+    "the flat grey light of a sky that has not cleared in nine days",
+    "a break in the clouds, and for once you can see stars over the sprawl"
+  ],
+  "sound": [
+    "bass from three floors down, felt in the teeth rather than heard",
+    "the arrhythmic clatter of a maglev overhead",
+    "an advertising drone repeating the same jingle in four languages",
+    "sirens, distant, going somewhere else",
+    "the wet mechanical cough of a failing air scrubber",
+    "someone arguing in Salish through a thin wall",
+    "the hum of a badly shielded transformer",
+    "silence, which in this neighbourhood is worse than noise"
+  ],
+  "smell": [
+    "hot plastic and old rain",
+    "soykaf, cigarette smoke, and something under it that is not food",
+    "ozone from a fresh magical discharge",
+    "industrial solvent and cheap incense competing badly",
+    "the iron smell of the Sound at low tide",
+    "sweat, gun oil, and the antiseptic tang of a clinic",
+    "frying nutrisoy from a cart that has not moved in a decade"
+  ],
+  "detail": [
+    "an AR tag someone has bothered to render in three dimensions",
+    "a shrine of cheap candles under a bullet-pocked wall",
+    "a Lone Star drone parked and powered down, gathering rust",
+    "graffiti that updates itself when you look away",
+    "a child's bicycle chained to a pipe, both long abandoned",
+    "a corp logo half-scraped off a door that still locks",
+    "a queue of people who have clearly been waiting all night",
+    "a dead pigeon with a datajack in the back of its skull",
+    "a vending machine that only accepts a currency that stopped existing"
+  ],
+  "crowd": [
+    "shift workers spilling out of a plant, too tired to look up",
+    "a gang tagging territory with unhurried confidence",
+    "tourists who took a wrong turn and know it",
+    "a street preacher warning about the next Awakening",
+    "nobody at all, which is itself information",
+    "day labourers waiting for a truck that may not come",
+    "a knot of teenagers running BTL chips off a cracked commlink",
+    "corp security on their break, armour half-unfastened"
+  ],
+  "cold_open": [
+    "The call comes in at the worst possible hour, which is how you know it pays.",
+    "You have been in the car for forty minutes and nobody has said anything.",
+    "It starts, as these things do, with a name you were hoping never to hear again.",
+    "The meet is already going wrong and it has not started yet.",
+    "Someone has left the door open. Nobody in this business leaves a door open.",
+    "There is blood on the floor and it is not yours yet.",
+    "Three hours ago this was a simple job. Two hours ago it stopped being one."
+  ]
+}

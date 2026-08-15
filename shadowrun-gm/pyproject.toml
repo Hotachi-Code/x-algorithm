@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shadowrun-gm"
+version = "0.1.0"
+description = "A never-ending Shadowrun campaign engine backed by an Obsidian vault, with a local-voice storyteller."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+# Everything below is optional. The core engine runs on the standard library
+# alone so a table can play offline with zero installs.
+[project.optional-dependencies]
+ingest = [
+  "pypdf>=4.0",       # PDF text extraction for books you own
+  "ebooklib>=0.18",   # EPUB extraction
+  "beautifulsoup4>=4.12",
+]
+embed = [
+  "numpy>=1.24",
+  "sentence-transformers>=2.2",  # local embeddings, no network at query time
+]
+llm = [
+  "httpx>=0.27",      # Ollama / Anthropic transports
+]
+yaml = ["PyYAML>=6.0"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+srgm = "shadowrun_gm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+shadowrun_gm = ["data/*.json", "data/tables/*.json", "data/vault_seed/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

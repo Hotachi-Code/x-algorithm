@@ -1,0 +1,57 @@
+{
+  "street_name": [
+    "Hollow", "Ratchet", "Sundown", "Mox", "Verdigris", "Static", "Cinder",
+    "Pilgrim", "Nine", "Halcyon", "Dross", "Kestrel", "Fathom", "Grit",
+    "Vellum", "Tanager", "Bracket", "Lowlight", "Salt", "Marrow", "Quill",
+    "Ferrous", "Tessellate", "Mimic", "Bellwether", "Gutter", "Prospect",
+    "Aftermarket", "Winnow", "Chalk", "Palisade", "Redshift", "Undertow",
+    "Sable", "Kilowatt", "Nettle", "Backdraft", "Loom", "Cinderblock", "Hex"
+  ],
+  "role": [
+    "fixer", "street doc", "talismonger", "arms dealer", "information broker",
+    "corp middle manager", "Knight Errant sergeant", "gang lieutenant",
+    "smuggler", "bartender who hears everything", "decker for hire",
+    "spirit-broker", "organlegger", "chop shop owner", "ex-runner turned handler",
+    "journalist with a death wish", "customs inspector", "dock foreman",
+    "club promoter", "shadow accountant", "priest of something unfashionable"
+  ],
+  "wants": [
+    "out of the life, one big score from now",
+    "a debt cleared before the collector arrives",
+    "somebody found who does not want finding",
+    "leverage on the person above them",
+    "their family off the grid and out of the sprawl",
+    "revenge, patiently, on a schedule",
+    "to be seen as more important than they are",
+    "the crew to owe them, more than they want the money",
+    "a piece of the next thing, whatever it turns out to be",
+    "proof that what happened to them actually happened",
+    "their old body back, or the closest thing money can buy",
+    "to keep a promise they made to somebody who died"
+  ],
+  "quirk": [
+    "never sits with their back to a door",
+    "chain-smokes real tobacco, which costs more than the meet is worth",
+    "has an obvious tell and knows it, and uses it",
+    "talks in trideo quotes nobody else recognises",
+    "keeps a dead relative's commlink charged and on the table",
+    "counts things -- exits, people, seconds -- out loud, quietly",
+    "wears last decade's fashion with total conviction",
+    "will not touch anything with a Renraku logo on it",
+    "always brings food to a meeting and always eats it alone",
+    "has replaced so much of themselves that the voice is the last original part",
+    "refuses to use AR overlays; reads everything on paper",
+    "apologises before doing something unforgivable"
+  ],
+  "voice_note": [
+    "low, unhurried, every word chosen",
+    "fast, clipped, allergic to silence",
+    "warm on the surface, nothing underneath",
+    "synthesised -- the larynx is aftermarket and it shows",
+    "a Salish accent worn smooth by twenty years in Downtown",
+    "loud, theatrical, performing for an audience that is not there",
+    "a whisper that makes everyone else lean in",
+    "flat, medicated, entirely affectless",
+    "cracked and smoke-ruined, and once beautiful"
+  ]
+}
